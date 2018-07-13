@@ -1,6 +1,7 @@
 .App {
   text-align: center;
 }
+
 .App-palavras{
   text-align: center;
   background-color: yellow;
@@ -8,17 +9,35 @@
   
 }
 
+.fundo{
+  height: 35px;
+  background-color: aqua;
+}
+
 .bordaFora{
-  
-  border:solid 1px;
+  background-color: white;
   
   width: 200px;
   height: 170px;
   margin-left: 40%;
   margin-top: 50px;
-  
+  box-shadow: #000 2px 2px 1px;
 }
 .Assuntos{
   text-align: center;
   height: 160px;
+}
+
+body{
+  background-color: aquamarine;
+}
+
+.espacamentoEsquerdo{
+  margin-left: 10px;
+}
+
+.espacamentoSair{
+  margin-right: 10px;
+  margin-top: 10px;
+  text-align: right;
 }
