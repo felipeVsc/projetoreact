@@ -9,8 +9,8 @@ class Fundo extends Component{
                 
                 <h1 className="espacamentoEsquerdo">Idealize aqui um nome bem massa</h1>
                 <div className="fundo">
-                
-                <p className="espacamentoSair">Teste</p>
+                    
+                    <p className="espacamentoSair">Sair</p>
 
                 </div>
             </div>
