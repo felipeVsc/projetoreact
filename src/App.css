@@ -17,7 +17,6 @@
 
 .bordaFora{
   background-color: white;
-  
   width: 200px;
   height: 170px;
   margin-left: 40%;
@@ -28,6 +27,11 @@
 .Assuntos{
   text-align: center;
   height: 160px;
+}
+
+.okok{
+  text-align: center;
+  height: 300px;
 }
 
 body{
@@ -41,4 +45,13 @@ body{
 .espacamentoSair{
   padding: 10px;
   text-align: right;
+}
+
+.centralizarTexto{
+  text-align: center;
+}
+
+.rowC{
+  display: flex;
+  flex-direction: row;
 }

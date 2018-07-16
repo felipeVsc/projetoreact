@@ -7,7 +7,7 @@ class Assuntos extends Component{
             <div className="bordaFora"> 
                 <div className="Assuntos">                  
                     <p className="App-palavras">Assuntos</p>
-                    <div className="App-assuntos">
+                    <div className="centralizarTexto">
                     <p>Programação</p>
                     <p>Geometria</p>
                     <p>Ingles</p>

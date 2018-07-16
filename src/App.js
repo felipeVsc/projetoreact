@@ -10,7 +10,7 @@ class App extends Component {
           <p>Turmas</p>
           </div> 
           
-          <div className="App-turmas">
+          <div className="centralizarTexto">
             <p>913A</p>
             <p>923B</p>
             <p>912A</p>
