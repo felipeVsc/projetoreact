@@ -1,3 +1,7 @@
+body{
+  background-color: aqua !important;
+}
+
 .App {
   text-align: center;
 }
@@ -9,19 +13,22 @@
   
 }
 
+
 .fundo{
   height: 35px;
-  background-color: aqua;
+  background-color: aquamarine;
   box-shadow: black 1px 1px 1px;
 }
 
 .bordaFora{
   background-color: white;
-  width: 200px;
+  width: 245px;
   height: 170px;
   margin-left: 40%;
   margin-top: 50px;
+ 
   box-shadow: #000 2px 2px 1px;
+  
   
 }
 .Assuntos{
@@ -29,14 +36,7 @@
   height: 160px;
 }
 
-.okok{
-  text-align: center;
-  height: 300px;
-}
 
-body{
-  background-color: aquamarine;
-}
 
 .espacamentoEsquerdo{
   margin-left: 10px;
@@ -54,4 +54,5 @@ body{
 .tamanhoImagem{
   width: 150px;
   height: 70px;
+  padding-bottom: 15px;
 }

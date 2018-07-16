@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Nav, NavItem, NavLink } from 'reactstrap';
 import './App.css';
 
 class Assuntos extends Component{
@@ -8,9 +9,17 @@ class Assuntos extends Component{
                 <div className="Assuntos">                  
                     <p className="App-palavras">Assuntos</p>
                     <div className="centralizarTexto">
-                    <p>Programação</p>
-                    <p>Geometria</p>
-                    <p>Ingles</p>
+                    <Nav vertical>
+                        <NavItem>
+                            <NavLink href="#">Programacao</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#">Geometria</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#">Historia</NavLink>
+                        </NavItem>
+                    </Nav>
                     </div>
         
                 </div>

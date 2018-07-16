@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Nav, NavItem, NavLink } from 'reactstrap';
 import './App.css';
 
 class App extends Component {
@@ -11,9 +12,17 @@ class App extends Component {
           </div> 
           
           <div className="centralizarTexto">
-            <p>913A</p>
-            <p>923B</p>
-            <p>912A</p>
+            <Nav vertical>
+            <NavItem>
+              <NavLink href="#">913A</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#">912A</NavLink>
+            </NavItem>
+            <NavItem>
+              <NavLink href="#">911A</NavLink>
+            </NavItem>
+          </Nav>
           </div>
         
         </div>
