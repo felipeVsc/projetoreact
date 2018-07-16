@@ -51,7 +51,7 @@ body{
   text-align: center;
 }
 
-.rowC{
-  display: flex;
-  flex-direction: row;
+.tamanhoImagem{
+  width: 150px;
+  height: 70px;
 }

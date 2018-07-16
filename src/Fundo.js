@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import logoIFAL from './logoIFAL.png';
 import './App.css';
 
 class Fundo extends Component{
@@ -7,7 +8,7 @@ class Fundo extends Component{
             <div>
 
                 
-                <h1 className="espacamentoEsquerdo">Idealize aqui um nome bem massa</h1>
+                <img src={logoIFAL} alt="logoIFAL" className="tamanhoImagem"/>;
                 <div className="fundo">
                     
                     <p className="espacamentoSair">Sair</p>
