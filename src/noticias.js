@@ -22,7 +22,7 @@ const items = [
   }
 ];
 
-const Noticias = () => <div classname="teste"><UncontrolledCarousel items={items} /></div>;
+const Noticias = () => <div className="CarroselPos"><UncontrolledCarousel items={items} /></div>;
 
 export default Noticias;
 

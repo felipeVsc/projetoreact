@@ -5,6 +5,7 @@ import './App.css';
 class Assuntos extends Component{
     render (){
         return (
+            <div className="geralDiv">
             <div className="bordaFora"> 
             
                 <div className="Assuntos">                  
@@ -25,6 +26,7 @@ class Assuntos extends Component{
         
                 </div>
             
+                </div>
                 </div>
         )
     }

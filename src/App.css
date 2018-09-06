@@ -11,36 +11,23 @@ body{
   text-align: center;
   background-color: yellow;
   height: 20px;
-  
-}
+  }
 
 
 .bordaFora{
   background-color: white;
   width: 245px;
   height: 170px;
-  margin-left: 75%;
+  margin-left: 300px;
   margin-top: 50px;
- 
-  box-shadow: #000 2px 2px 1px;
-  
-  
+    box-shadow: #000 2px 2px 1px;
+    
 }
 
 
 .Assuntos{
   text-align: center;
-  height: 160px;
-}
-
-
-.espacamentoEsquerdo{
-  margin-left: 10px;
-}
-
-.espacamentoSair{
-  padding: 10px;
-  text-align: right;
+  height: 300px;
 }
 
 .centralizarTexto{
@@ -49,18 +36,26 @@ body{
 
 .tamanhoImagem{
   width: 150px;
-  height: 70px;
+  height: 200px;
   padding-bottom: 15px;
 }
 
-.teste{
-  margin-left: 10px;
-}
+
 .carousel {
-  width:640px;
-  height:360px;
+  width:600px;
+  height:30px;
 }
 
 .CarroselPos{
+  margin-top: 2%;
+  margin-left: 30%;
+  margin-right: 5%;
+  
+}
+
+.geralDiv{
+  display: inline-grid;
+  margin-top: 300px;
+  width: 300px;
   
 }
