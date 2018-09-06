@@ -7,24 +7,9 @@ class Fundo extends Component{
     render() {
         return (
             <div>
-
-                
+                <center>
                 <img src={logoIFAL} alt="logoIFAL" className="tamanhoImagem"/>;
-                <div className="fundo">
-
-                    <Nav>
-                        <NavItem>
-                            <NavLink href="#">Boletim</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#">Histórico</NavLink>
-                        </NavItem>
-                        <NavItem>
-                            <NavLink href="#" className="tt">Alunos</NavLink>
-                        </NavItem>
-                     </Nav>
-
-                </div>
+                </center>
             </div>
         )
     }

@@ -6,6 +6,7 @@ class Assuntos extends Component{
     render (){
         return (
             <div className="bordaFora"> 
+            
                 <div className="Assuntos">                  
                     <p className="App-palavras">Assuntos</p>
                     <div className="centralizarTexto">
@@ -23,6 +24,7 @@ class Assuntos extends Component{
                     </div>
         
                 </div>
+            
                 </div>
         )
     }

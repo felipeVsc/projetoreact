@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Card, CardImg, CardText, CardBody, CardTitle, CardSubtitle, Button } from 'reactstrap';
+import { Nav, NavItem, NavLink } from 'reactstrap';
 import './App.css';
 
 class Infos extends Component {
@@ -7,15 +7,22 @@ class Infos extends Component {
     return (
       <div className="bordaFora">
         <div className="info">
-        <Card>
-        <CardBody>
-          <CardTitle>Noticias</CardTitle>
-          <CardSubtitle>OBMEP</CardSubtitle>
-          <CardText>Prova ocorrerá no campus!</CardText>
-          <Button>Saber mais</Button>
-        </CardBody>
-      </Card>
+        <p className="App-palavras">Infos</p>
+        <div className="centralizarTexto">
+        <Nav vertical>
+                        <NavItem>
+                            <NavLink href="#">Secretaria</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#">Histórico</NavLink>
+                        </NavItem>
+                        <NavItem>
+                            <NavLink href="#">Documentos</NavLink>
+                        </NavItem>
+                     </Nav>
+
         
+        </div>
         </div>
         </div>
     );
@@ -23,4 +30,3 @@ class Infos extends Component {
 }
 
 export default Infos;
-

@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
+import Noticias from './noticias';
 import Assuntos from './Assuntos';
 import Fundo from './Fundo';
-import Aulas from './proxAulas';
 import Infos from './infos';
 import AlertaBim from './AlertaBim';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -13,11 +13,12 @@ import registerServiceWorker from './registerServiceWorker';
 
 ReactDOM.render(<div>
     <AlertaBim/>    
-    <Fundo/>
-    
-    <App/>
+    <Fundo/>  
+    <Noticias/>
     <Infos/>
+    <App/>
     <Assuntos/>
+    
     
     
     </div>, document.getElementById('root'));
